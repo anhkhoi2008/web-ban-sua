@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- phan dau -->
+    <div class="header__wrap">
+        <header>
+            <!-- logo -->
+            <div class="header__img">
+                <img src="./img/logo2.png" alt="logo bach hoa">
+            </div>
+
+            <!-- tinh thanh -->
+            <div class="header__tinhthanh">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Chọn tỉnh thành, quận huyện để xem chính xác tồn kho</p>
+            </div>
+            <!-- input -->
+            <div class="header__timkiem">
+                <input type="text" name="key" id="text-search" placeholder="Tìm Kiếm">
+                <i class="fa-solid fa-magnifying-glass kinhlup"></i>
+            </div>
+
+
+            <!-- don hang -->
+            <span class="headeer__donhang">Đơn hàng của bạn</span>
+            <!-- gio hang -->
+            <div class="giohang">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>GIỎ HÀNG</span>
+
+            </div>
+
+        </header>
+    </div>
+
+    <!-- end phan dau -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+    </div> -->
+    <!-- slider -->
+    <!-- <div id="myslider">
+        <div id="carouselExampleIndicators" class="carousel slide h-100">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/banh-keo-giam-30-mua-2-tang-1-030320239138.jpg"
+                        class="d-block w-100 j h-100 anhsieunhan" alt="">
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/thuc-pham-dong-mat-km-soc-0303202355824.jpg"
+                        class="d-block w-100 h-100  anhsieunhan " alt="">
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/sua-gia-si-27022023135432.jpg"
+                        class="d-block w-100 h-100  anhsieunhan" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+    <div id="myslider">
+        <div id="carouselExampleIndicators" class="carousel slide h-100">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/sua-chua-can-tet-06022023142653.jpg"
+                        class="d-block w-100 j h-100 anhsieunhan" alt="">
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/banh-keo-giam-30-mua-2-tang-1-030320239138.jpg"
+                        class="d-block w-100 h-100  anhsieunhan " alt="">
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/5599/thuc-pham-dong-mat-km-soc-0303202355824.jpg"
+                        class="d-block w-100 h-100  anhsieunhan" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- end slider -->
+    <!-- danh sach -->
+    <div class="danh-sach">
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/85881/bhx/thung-48-hop-sua-chua-uong-huong-dau-yomost-170ml-202209281517517804_300x300.jpg"
+                alt="sua kun">
+            <h4 class="ten-san-pham">Thùng 48 hộp sữa chua YoMost dâu 170ml</h4>
+            <span class="gia-ban text-decoration-line-through">369.000₫</span>
+            <span class="gia-goc">200.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2443/203042/bhx/6-lon-nuoc-ngot-coca-cola-plus-320ml-202210081801123717_300x300.jpg"
+                alt="6 lon nước ngọt Coca Cola Plus 320ml">
+            <h4 class="ten-san-pham">6 lon nước ngọt Coca Cola Plus 320ml</h4>
+            <span class="gia-ban text-decoration-line-through ">69.000₫</span>
+            <span class="gia-goc">59.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2443/197255/bhx/thung-12-lon-nuoc-ngot-fanta-huong-cam-320ml-202211261105575897_300x300.jpg"
+                alt="Thùng 12 lon nước ngọt Fanta cam 320ml">
+            <h4 class="ten-san-pham">Thùng 12 lon nước ngọt Fanta cam 320ml</h4>
+            <span class="gia-ban text-decoration-line-through">79.000₫</span>
+            <span class="gia-goc">60.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/85914/bhx/thung-48-chai-sua-chua-uong-dau-fristi-80ml-202209281029122861_300x300.jpg"
+                alt="Thùng 48 chai sữa chua uống hương dâu Fristi 80ml">
+            <h4 class="ten-san-pham">Thùng 48 chai sữa chua uống hương dâu Fristi 80ml</h4>
+            <span class="gia-ban text-decoration-line-through">170.000₫</span>
+            <span class="gia-goc">160.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/85851/bhx/thung-48-hop-sua-chua-uong-huong-cam-lif-kun-180ml-202211181555037413_300x300.jpg"
+                alt="Thùng 48 hộp sữa chua uống hương cam LiF Kun 180ml">
+            <h4 class="ten-san-pham">Thùng 48 hộp sữa chua uống hương cam LiF Kun 180ml</h4>
+            <span class="gia-ban text-decoration-line-through">282.000₫</span>
+            <span class="gia-goc">200.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/281634/bhx/thung-30-hop-sua-chua-uong-tu-thuc-vat-vi-cam-yuzu-veyo-180ml-202209281434234696_300x300.jpg"
+                alt="Thùng 30 hộp sữa chua uống từ thực vật vị cam yuzu Veyo 180ml">
+            <h4 class="ten-san-pham">Thùng 30 hộp sữa chua uống từ thực vật vị cam yuzu Veyo 180ml</h4>
+            <span class="gia-ban text-decoration-line-through">220.000₫</span>
+            <span class="gia-goc">100.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/85875/bhx/thung-48-hop-sua-chua-uong-huong-dau-chuoi-va-lua-mach-th-true-yogurt-top-kid-110ml-202209281424559749_300x300.jpg"
+                alt="Thùng 48 hộp sữa chua TH True Yogurt Top Kid dâu chuối 110ml">
+            <h4 class="ten-san-pham">Thùng 48 hộp sữa chua TH True Yogurt Top Kid dâu chuối 110ml</h4>
+            <span class="gia-ban text-decoration-line-through">216.500₫</span>
+            <span class="gia-goc">199.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/86162/bhx/thung-48-hop-sua-chua-uong-huong-cam-yomost-170ml-202209281518049961_300x300.jpg"
+                alt="Thùng 48 hộp sữa chua uống hương cam YoMost 170ml">
+            <h4 class="ten-san-pham">Thùng 48 hộp sữa chua uống hương cam YoMost 170ml</h4>
+            <span class="gia-ban text-decoration-line-through">369.000₫</span>
+            <span class="gia-goc">500.000₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/76725/bhx/loc-4-hop-sua-chua-uong-cam-lif-kun-180ml-202209281318381251_300x300.jpg"
+                alt="Lốc 4 hộp sữa chua uống cam LiF Kun 180ml">
+            <h4 class="ten-san-pham">Lốc 4 hộp sữa chua uống cam LiF Kun 180ml</h4>
+            <span class="gia-ban text-decoration-line-through">24.000₫</span>
+            <span class="gia-goc">10.500₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/2944/85912/bhx/thung-48-chai-sua-chua-uong-cam-fristi-80ml-202209281029190925_300x300.jpg"
+                alt="Lốc 4 chai sữa chua uống nha đam Vinamilk Yomilk 150ml">
+            <h4 class="ten-san-pham">Lốc 4 chai sữa chua uống nha đam Vinamilk Yomilk 150ml</h4>
+            <span class="gia-ban text-decoration-line-through">27.000₫</span>
+            <span class="gia-goc">23.500₫</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/10778/245232/bhx/banh-bao-nhan-ca-phe-lim-kee-280g-202209141627032771_300x300.png"
+                alt="iphone 10">
+            <h4 class="ten-san-pham">bánh bao </h4>
+            <span class="gia-ban text-decoration-line-through">19.000</span>
+            <span class="gia-goc">10.000</span>
+
+        </div>
+        <div class="san-pham-card">
+            <img class="anh-the"
+                src="https://cdn.tgdd.vn/Products/Images/10778/245225/bhx/banh-bao-nhan-dau-do-lim-kee-280g-202209141626534114_300x300.png"
+                alt="samsung">
+            <h4 class="ten-san-pham">mochi</h4>
+            <span class="gia-ban text-decoration-line-through">29.000</span>
+            <span class="gia-goc">25.000</span>
+
+        </div>
+
+
+    </div>
+    <!-- end danh sach -->
+
+
+    <div class="footer">
+        <p class="">COPYRIGHT:Anh Khôi</p>
+        <div class="footer-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

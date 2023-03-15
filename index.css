@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* haaeder */
+.header__wrap {
+    background-color: #008848;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+
+header {
+    width: 982px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__img {
+    width: 170px;
+    height: 65px;
+}
+
+.header__img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header__tinhthanh {
+    width: 176px;
+    height: 30px;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    border-radius: 3px;
+    background-color: rgba(19, 18, 24, .16);
+    font-weight: 500;
+}
+
+/* gia ban */
+.gia-ban {
+    display: inline-block;
+}
+
+
+.header__tinhthanh i {
+    font-size: 14px;
+
+}
+
+.header__tinhthanh p {
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+
+.kinhlup {
+    color: #fff;
+}
+
+
+
+.headeer__donhang {
+    font-size: 17px;
+    max-width: 92px;
+    color: #fff;
+    height: 50px;
+    padding: 1px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: 8px;
+
+
+}
+
+.giohang {
+    color: #fff;
+    font-size: 18px;
+    background-color: rgba(19, 18, 24, .16);
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.giohang i {}
+
+.giohang span {}
+
+
+
+
+
+.danh-sach {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 70%;
+
+
+
+}
+
+.san-pham-card {
+    width: calc(25% - 22px);
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    text-align: center;
+}
+
+.anh-the {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.san-pham-card span {
+    padding: 5px;
+
+}
+
+.san-pham-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px 10px 1px rgb (0 0 0 /20%);
+    transition: all 1s;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.footer {
+    background-color: #008848;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-icon {
+    margin-bottom: 10pxs;
+    margin-top: 10px;
+
+}
+
+.footer-icon a {
+    margin: 0 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-icon a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#myslider {
+    height: 400px;
+    margin-top: 65px;
+
+}
+
+.anhsieunhan {
+    width: 100%;
+    display: block;
+    height: 100%;
+    /* object-fit: cover; */
+}
